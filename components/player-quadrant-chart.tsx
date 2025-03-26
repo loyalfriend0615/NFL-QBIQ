@@ -275,48 +275,6 @@ export function PlayerQuadrantChart({
                     )
                   }
                 />
-
-                {/* Quadrant labels */}
-                <text
-                  x={xMedian / 2}
-                  y={yMedian + (1 - yMedian) / 2}
-                  textAnchor="middle"
-                  fill="#0369a1"
-                  fontWeight="bold"
-                  fontSize={14}
-                >
-                  {quadrantLabels.topLeft}
-                </text>
-                <text
-                  x={xMedian + (1 - xMedian) / 2}
-                  y={yMedian + (1 - yMedian) / 2}
-                  textAnchor="middle"
-                  fill="#059669"
-                  fontWeight="bold"
-                  fontSize={14}
-                >
-                  {quadrantLabels.topRight}
-                </text>
-                <text
-                  x={xMedian / 2}
-                  y={yMedian / 2}
-                  textAnchor="middle"
-                  fill="#b91c1c"
-                  fontWeight="bold"
-                  fontSize={14}
-                >
-                  {quadrantLabels.bottomLeft}
-                </text>
-                <text
-                  x={xMedian + (1 - xMedian) / 2}
-                  y={yMedian / 2}
-                  textAnchor="middle"
-                  fill="#ca8a04"
-                  fontWeight="bold"
-                  fontSize={14}
-                >
-                  {quadrantLabels.bottomRight}
-                </text>
               </ScatterChart>
             </ResponsiveContainer>
           </div>
